@@ -288,8 +288,8 @@ This portfolio template is free to use for personal projects. Feel free to custo
 ## 📧 Contact
 
 For questions or suggestions about this portfolio:
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/rishiparmar01)
-- **Twitter/X**: [@yourhandle](https://twitter.com/Varexity)
+- **LinkedIn**: [Rishi Parmar](https://linkedin.com/in/rishiparmar01)
+- **Twitter/X**: [starsophile](https://twitter.com/Varexity)
 - **Email**: rishi.parmar@imaginepedia.tech
 
 ---
