@@ -273,16 +273,24 @@ This portfolio template is free to use for personal projects. Feel free to custo
 ## 🙏 Credits
 
 - **Design & Development**: Rishi
+- **AI Assistance**: Google's Antigravity (using Claude 4.5 Sonnet model)
 - **Fonts**: Google Fonts (Inter, Outfit)
 - **Icons**: Feather Icons
 - **Inspiration**: Modern web design trends
 
+## 🛠️ Setup & Features
+- **Portfolio Structure**: Hero, About, Experience, Projects, Skills, Contact
+- **Contact Form**: Integrated with Web3Forms for serverless email submissions
+- **Responsive Design**: Mobile-first approach ensuring compatibility across all devices
+- **Animations**: Smooth fade-ins and micro-interactions for a premium feel
+- **Deployment**: Ready for GitHub Pages, Netlify, or Vercel
+
 ## 📧 Contact
 
 For questions or suggestions about this portfolio:
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- **Twitter/X**: [@yourhandle](https://twitter.com/yourhandle)
-- **Email**: your.email@example.com
+- **LinkedIn**: [Your Profile](https://linkedin.com/in/rishiparmar01)
+- **Twitter/X**: [@yourhandle](https://twitter.com/Varexity)
+- **Email**: rishi.parmar@imaginepedia.tech
 
 ---
 
