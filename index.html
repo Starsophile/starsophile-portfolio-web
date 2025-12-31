@@ -1,655 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Rishi - B.Tech CSE Student, Tech Enthusiast, Content Writer. Exploring Smartphones, AI, and Product Strategy.">
-    <meta name="keywords" content="Tech Enthusiast, Smartphone Analysis, AI, Content Writer">
-    <meta name="author" content="Rishi">
+    <title>Rishi | The Haptic Journal</title>
+    <meta name="description" content="I don't use the tech, I feel the tech. A product design journal.">
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Rishi  Tech Enthusiast">
-    <meta property="og:description" content="CSE Undergrad exploring smartphones, AI, and product strategy">
-    <meta property="og:type" content="website">
-
-    <title>Rishi - Tech Enthusiast</title>
-
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap"
         rel="stylesheet">
 
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container nav-container">
-            <a href="#home" class="logo">
-                <span class="logo-text">Rishi</span>
-            </a>
 
-            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+    <div class="ambient-bg"></div>
+    <div class="noise-layer"></div>
 
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
+    <nav class="site-nav">
+        <div class="nav-left">
+            <a href="/" class="logo">Rishi.</a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
-        </div>
-
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title animate-fade-in">
-                    Hi, I'm <span class="gradient-text">Rishi</span>
-                </h1>
-                <p class="hero-subtitle animate-fade-in-delay-1">
-                    CSE Undergrad | Tech Enthusiast | Content Writer
-                </p>
-                <p class="hero-description animate-fade-in-delay-2">
-                    Exploring smartphones, AI, and product strategy
-                </p>
-                <div class="hero-cta animate-fade-in-delay-3">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-
-            <div class="about-content">
-                <div class="about-image-container">
-                    <div class="about-image-wrapper">
-                        <div class="about-image-placeholder">
-                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="100" cy="100" r="90" fill="url(#gradient1)" />
-                                <text x="100" y="120" font-size="80" fill="white" text-anchor="middle"
-                                    font-family="Inter, sans-serif" font-weight="700">R</text>
-                                <defs>
-                                    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-                                        <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
-                                        <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="about-text">
-                    <p class="about-intro">
-                        I'm a <strong>19-year-old B.Tech CSE student</strong> at ITM Vocational University with a deep
-                        passion for the
-                        intersection of technology and user experience. My journey is driven by an insatiable curiosity
-                        about how products shape our digital lives.
-                    </p>
-
-                    <p>
-                        From analyzing the latest <strong>smartphone innovations</strong> to exploring the
-                        transformative potential of <strong>AI</strong>, I thrive on understanding what makes products
-                        tick. I don't just use technology—I dissect it, question it, and envision how it can be better.
-                    </p>
-
-                    <p>
-                        As a <strong>Content Writer & Research Analyst</strong> at GadgetsTurbo, I've honed my ability
-                        to break down complex tech concepts into compelling narratives. Whether it's conducting in-depth
-                        market research, writing product-style breakdowns, or leading AI workshops on campus, I'm
-                        constantly building the skills that will define my future as a <strong>Product Manager in the
-                            smartphone industry</strong>.
-                    </p>
-
-                    <p class="about-highlight">
-                        <strong>My mission?</strong> To bridge the gap between cutting-edge technology and meaningful
-                        user experiences, creating products that don't just work, they inspire.
-                    </p>
-
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <div class="stat-number">19</div>
-                            <div class="stat-label">Years Old</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">25+</div>
-                            <div class="stat-label">Articles Written</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">5+</div>
-                            <div class="stat-label">Case Studies</div>
-                        </div>
+    <main>
+        <section id="manifesto" class="section-manifesto">
+            <div class="container">
+                <div class="manifesto-content">
+                    <h1 class="manifesto-title">
+                        <span class="line">I don't use the tech,</span>
+                        <span class="line line-emphasis">I feel the tech.</span>
+                    </h1>
+                    <div class="manifesto-body">
+                        <p>We live in an era of spec-sheet obsession. But great products aren't defined by clock speeds;
+                            they are defined by <em>friction</em>, <em>flow</em>, and <em>intuition</em>.</p>
+                        <p>This is my journal of dissecting those systems.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience section">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-
-            <div class="experience-timeline">
-                <!-- Professional Experience -->
-                <div class="timeline-item glass-card">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3 class="timeline-title">Content Writer & Research Analyst</h3>
-                            <span class="timeline-company">GadgetsTurbo</span>
-                        </div>
-                        <div class="timeline-period">2025 – Present</div>
-                        <ul class="timeline-description">
-                            <li>Write in-depth tech articles covering smartphone innovations, AI developments, and
-                                consumer technology trends</li>
-                            <li>Conduct comprehensive research on the smartphone and consumer tech industry, analyzing
-                                market trends and competitive landscapes</li>
-                            <li>Create product-style breakdowns that dissect features, user experience, and strategic
-                                positioning of flagship devices</li>
-                            <li>Collaborate with editorial team to deliver engaging, data-driven content for tech
-                                enthusiasts</li>
-                        </ul>
-                        <div class="timeline-tags">
-                            <span class="tag">Content Writing</span>
-                            <span class="tag">Market Research</span>
-                            <span class="tag">Tech Analysis</span>
-                            <span class="tag">Product Strategy</span>
-                        </div>
+        <section id="lens" class="section-lens">
+            <div class="container grid-layout">
+                <div class="col-left sticky-col">
+                    <div class="section-marker">
+                        <span class="marker-number">01</span>
+                        <h2 class="marker-title">The Lens</h2>
                     </div>
                 </div>
+                <div class="col-right">
+                    <div class="article-list">
+                        <article class="article-card">
+                            <div class="article-meta">
+                                <span class="meta-date">Oct 2025</span>
+                                <span class="meta-tag">Analysis</span>
+                            </div>
+                            <h3 class="article-title"><a href="#">The Shift to NPU-First Computing</a></h3>
+                            <p class="article-summary">Why on-device AI is more than a privacy feature—it's a
+                                fundamental shift in how OS schedulers prioritize tasks.</p>
+                            <div class="article-figure">
+                                <div class="figure-placeholder" data-pattern="circuit"></div>
+                                <span class="figure-caption">Fig 1.1 — Latency Graph</span>
+                            </div>
+                        </article>
 
-                <!-- College Activities -->
-                <div class="timeline-item glass-card">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3 class="timeline-title">Student Leader & Event Organizer</h3>
-                            <span class="timeline-company">ITMVU - College Activities</span>
-                        </div>
-                        <div class="timeline-period">2025 – Present</div>
-                        <ul class="timeline-description">
-                            <li><strong>Event Anchoring:</strong> Hosted multiple college events, engaging audiences
-                                with confident public speaking and dynamic stage presence</li>
-                            <li><strong>AI Workshop Conductor:</strong> Designed and led hands-on workshops introducing
-                                students to artificial intelligence concepts and practical applications</li>
-                            <li><strong>Exhibition Organizer:</strong> Coordinated technical exhibitions, managing
-                                logistics, participant engagement, and event execution</li>
-                            <li><strong>Student Engagement:</strong> Spearheaded programs to foster collaboration,
-                                learning, and innovation within the student community</li>
-                        </ul>
-                        <div class="timeline-tags">
-                            <span class="tag">Leadership</span>
-                            <span class="tag">Public Speaking</span>
-                            <span class="tag">Event Management</span>
-                            <span class="tag">Teaching</span>
-                        </div>
+                        <article class="article-card">
+                            <div class="article-meta">
+                                <span class="meta-date">Sep 2025</span>
+                                <span class="meta-tag">Survey</span>
+                            </div>
+                            <h3 class="article-title"><a href="#">Smartphone Usage Survey 2025</a></h3>
+                            <p class="article-summary">Analyzed 500+ student workflows. Key finding: Notification
+                                fatigue is driving a return to "dumbphone" modes.</p>
+                            <div class="article-figure">
+                                <div class="figure-placeholder" data-pattern="noise"></div>
+                                <span class="figure-caption">Fig 1.2 — Attention Span Decay</span>
+                            </div>
+                        </article>
+
+                        <article class="article-card">
+                            <div class="article-meta">
+                                <span class="meta-date">Aug 2025</span>
+                                <span class="meta-tag">Hardware</span>
+                            </div>
+                            <h3 class="article-title"><a href="#">iPhone 17 Air: Design vs. Physics</a></h3>
+                            <p class="article-summary">A technical look at the trade-offs required for ultra-thin
+                                chassis design and thermal dissipation.</p>
+                        </article>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects section">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <p class="section-subtitle">A showcase of my research, analysis, and technical work</p>
-
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card glass-card">
-                    <div class="project-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-                            <line x1="12" y1="18" x2="12" y2="18"></line>
-                        </svg>
-                    </div>
-                    <h3 class="project-title">Smartphone Connectivity Research</h3>
-                    <p class="project-description">
-                        Comprehensive research project analyzing connectivity technologies in modern smartphones,
-                        including 5G implementation, Wi-Fi standards, and emerging protocols.
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">Research</span>
-                        <span class="tag">5G</span>
-                        <span class="tag">IoT</span>
+        <section id="builds" class="section-builds">
+            <div class="container grid-layout">
+                <div class="col-left sticky-col">
+                    <div class="section-marker">
+                        <span class="marker-number">02</span>
+                        <h2 class="marker-title">Builds</h2>
                     </div>
                 </div>
+                <div class="col-right">
+                    <div class="project-dossier">
+                        <div class="project-file">
+                            <div class="file-header">
+                                <span class="file-id">EXP-001</span>
+                                <h3 class="file-name">Agentic IDE Prototype</h3>
+                            </div>
+                            <div class="file-grid">
+                                <div class="file-section">
+                                    <span class="label">Problem</span>
+                                    <p>Coding assistants are passive. They wait for input rather than anticipating
+                                        context.</p>
+                                </div>
+                                <div class="file-section">
+                                    <span class="label">Assumption</span>
+                                    <p>Cursor movement and file switching patterns can predict the necessary context
+                                        window.</p>
+                                </div>
+                                <div class="file-section full-width">
+                                    <span class="label">Build</span>
+                                    <p>A Python-based background service using `watchdog` to monitor file system events
+                                        and dynamically update a local LLM's system prompt.</p>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+                                <button class="btn-tech-toggle" aria-expanded="false">
+                                    <span class="icon">+</span> Technical Details
+                                </button>
+                            </div>
+                            <div class="file-tech-details" hidden>
+                                <div class="tech-grid">
+                                    <div class="tech-item">
+                                        <span class="tech-key">Language</span>
+                                        <span class="tech-val">Python 3.10</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <span class="tech-key">Inference</span>
+                                        <span class="tech-val">Llama 3 (Local)</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <span class="tech-key">Latency</span>
+                                        <span class="tech-val">~200ms</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                <!-- Project 2 -->
-                <div class="project-card glass-card">
-                    <div class="project-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="project-title">Samsung Case Study Series</h3>
-                    <p class="project-description">
-                        Five-chapter deep dive into Samsung's product strategy, market positioning, innovation pipeline,
-                        and competitive advantages in the global smartphone market.
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">Case Study</span>
-                        <span class="tag">Strategy</span>
-                        <span class="tag">Analysis</span>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card glass-card">
-                    <div class="project-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
-                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                        </svg>
-                    </div>
-                    <h3 class="project-title">Galaxy XR Analysis</h3>
-                    <p class="project-description">
-                        In-depth article exploring Samsung's extended reality (XR) initiatives, analyzing hardware
-                        capabilities, software ecosystem, and future potential in the AR/VR space.
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">XR/AR</span>
-                        <span class="tag">Innovation</span>
-                        <span class="tag">Future Tech</span>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card glass-card">
-                    <div class="project-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
-                            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
-                            <line x1="6" y1="6" x2="6" y2="6"></line>
-                            <line x1="6" y1="18" x2="6" y2="18"></line>
-                        </svg>
-                    </div>
-                    <h3 class="project-title">iPhone 17 Air Analysis</h3>
-                    <p class="project-description">
-                        Detailed breakdown of Apple's rumored ultra-thin iPhone 17 Air, examining design philosophy,
-                        technical challenges, and market implications for the premium smartphone segment.
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">Apple</span>
-                        <span class="tag">Product Analysis</span>
-                        <span class="tag">Design</span>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card glass-card">
-                    <div class="project-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                            <line x1="12" y1="17" x2="12" y2="17"></line>
-                        </svg>
-                    </div>
-                    <h3 class="project-title">AI Workshop Documentation</h3>
-                    <p class="project-description">
-                        Comprehensive materials from AI workshops conducted at college, including presentation slides,
-                        hands-on exercises, and resources for students exploring artificial intelligence.
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">AI/ML</span>
-                        <span class="tag">Education</span>
-                        <span class="tag">Workshop</span>
-                    </div>
-                </div>
-
-                <!-- Project 6 - Placeholder for future -->
-                <div class="project-card glass-card project-placeholder">
-                    <div class="project-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <line x1="12" y1="5" x2="12" y2="19"></line>
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                        </svg>
-                    </div>
-                    <h3 class="project-title">More Coming Soon</h3>
-                    <p class="project-description">
-                        Currently working on new projects exploring product management frameworks, user research
-                        methodologies, and emerging tech trends. Stay tuned!
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">In Progress</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-        <div class="container">
-            <h2 class="section-title">Skills & Expertise</h2>
-            <p class="section-subtitle">A blend of product thinking, technical knowledge, and creative communication</p>
-
-            <div class="skills-grid">
-                <!-- Product & Strategy -->
-                <div class="skill-category glass-card">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2">
-                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
-                                <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                            </svg>
-                        </div>
-                        <h3>Product & Strategy</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">Product Strategy</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
+                        <div class="project-file">
+                            <div class="file-header">
+                                <span class="file-id">EDU-002</span>
+                                <h3 class="file-name">AI Literacy Workshops</h3>
                             </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Market Research</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
+                            <div class="file-grid">
+                                <div class="file-section">
+                                    <span class="label">Problem</span>
+                                    <p>Students view AI as a "magic box" rather than a deterministic system.</p>
+                                </div>
+                                <div class="file-section">
+                                    <span class="label">Assumption</span>
+                                    <p>Building a raw API integration demystifies the "intelligence" illusion.</p>
+                                </div>
+                                <div class="file-section full-width">
+                                    <span class="label">Execution</span>
+                                    <p>Designed a 3-part curriculum: "Tokens & Probability", "Prompt Engineering", and
+                                        "RAG Pipelines".</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Tech Analysis</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 88%"></div>
+                            <div class="file-actions">
+                                <button class="btn-tech-toggle" aria-expanded="false">
+                                    <span class="icon">+</span> Curriculum Details
+                                </button>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Communication -->
-                <div class="skill-category glass-card">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2">
-                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                            </svg>
-                        </div>
-                        <h3>Communication</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">Content Writing</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 92%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Public Speaking</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Presentation</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 87%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Technical Skills -->
-                <div class="skill-category glass-card">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2">
-                                <polyline points="16 18 22 12 16 6"></polyline>
-                                <polyline points="8 6 2 12 8 18"></polyline>
-                            </svg>
-                        </div>
-                        <h3>Technical</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">Java</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Python</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 65%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">AI/ML Concepts</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Leadership -->
-                <div class="skill-category glass-card">
-                    <div class="skill-category-header">
-                        <div class="skill-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="9" cy="7" r="4"></circle>
-                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
-                        </div>
-                        <h3>Leadership</h3>
-                    </div>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">Event Management</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 88%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Team Collaboration</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Anchoring</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
+                            <div class="file-tech-details" hidden>
+                                <ul class="tech-list">
+                                    <li>Module 1: Understanding Temperature & Top-P</li>
+                                    <li>Module 2: Vector Embeddings Visualization</li>
+                                    <li>Module 3: Building a PDF Chatbot</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+        <section id="curiosity" class="section-curiosity">
+            <div class="container grid-layout">
+                <div class="col-left sticky-col">
+                    <div class="section-marker">
+                        <span class="marker-number">03</span>
+                        <h2 class="marker-title">Curiosity</h2>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <ul class="curiosity-log">
+                        <li class="log-item">
+                            <span class="log-id">OBS-01</span>
+                            <span class="log-topic">NPU-First OS Scheduling</span>
+                        </li>
+                        <li class="log-item">
+                            <span class="log-id">OBS-02</span>
+                            <span class="log-topic">Haptic Feedback Design</span>
+                        </li>
+                        <li class="log-item">
+                            <span class="log-id">OBS-03</span>
+                            <span class="log-topic">Digital Minimalism</span>
+                        </li>
+                        <li class="log-item">
+                            <span class="log-id">OBS-04</span>
+                            <span class="log-topic">Supply Chain Resilience</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <p class="about-text">I am a 19-year-old student at ITM Vocational University, but my classroom is
+                        the product landscape. While others code features, I analyze systems.</p>
+                    <p class="about-text">Currently dissecting tech at <strong>GadgetsTurbo</strong>. Building the
+                        future of product management, one hypothesis at a time.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="section-subtitle">Let's connect and discuss tech, products, or collaboration opportunities</p>
-
-            <div class="contact-content">
-                <!-- Contact Form with Web3Forms -->
-                <div class="contact-form-container glass-card">
-                    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-                        <!-- Web3Forms Access Key -->
+            <h2 class="footer-title">End of Log.</h2>
+            <div class="footer-content">
+                <div class="footer-intro">
+                    <p>Let's discuss products, systems, and the future of computing.</p>
+                </div>
+                <div class="footer-form">
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="2c7528fa-6555-46a1-b0d4-c0a193460841">
-
-                        <!-- Optional: Custom subject line -->
-                        <input type="hidden" name="subject" value="New Contact from Portfolio - Rishi">
-
-                        <!-- Optional: From name -->
-                        <input type="hidden" name="from_name" value="Portfolio Contact Form">
+                        <input type="hidden" name="subject" value="New Contact from Haptic Journal">
 
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required placeholder="Your name">
+                            <input type="text" id="name" name="name" required>
                         </div>
-
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            <input type="email" id="email" name="email" required>
                         </div>
-
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required
-                                placeholder="Your message..."></textarea>
+                            <textarea id="message" name="message" rows="4" required></textarea>
                         </div>
-
-                        <!-- Honeypot for spam protection -->
-                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
-                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        <button type="submit" class="btn-submit">Send</button>
                     </form>
-
-                    <div class="form-success" id="formSuccess">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                        <h3>Message Sent!</h3>
-                        <p>Thanks for reaching out. I'll get back to you soon.</p>
+                </div>
+                <div class="footer-meta">
+                    <div class="footer-col">
+                        <span class="label">Contact</span>
+                        <a href="mailto:01rishiparmar@gmail.com">01rishiparmar@gmail.com</a>
+                    </div>
+                    <div class="footer-col">
+                        <span class="label">Social</span>
+                        <a href="https://www.linkedin.com/in/rishiparmar01/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://www.instagram.com/starsophile/" target="_blank" rel="noopener">Instagram</a>
+                    </div>
+                    <div class="footer-col">
+                        <span class="label">Work</span>
+                        <a href="https://www.gadgetsturbo.in/" target="_blank" rel="noopener">GadgetsTurbo</a>
                     </div>
                 </div>
-
-                <!-- Social Links -->
-                <div class="contact-info">
-                    <div class="social-links">
-                        <h3>Connect With Me</h3>
-
-                        <a href="https://linkedin.com/in/rishiparmar01" target="_blank" rel="noopener noreferrer"
-                            class="social-link glass-card">
-                            <div class="social-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                    <path
-                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                                </svg>
-                            </div>
-                            <div class="social-info">
-                                <span class="social-name">LinkedIn</span>
-                                <span class="social-handle">Connect professionally</span>
-                            </div>
-                        </a>
-
-                        <a href="https://twitter.com/Varexity" target="_blank" rel="noopener noreferrer"
-                            class="social-link glass-card">
-                            <div class="social-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                    <path
-                                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                                </svg>
-                            </div>
-                            <div class="social-info">
-                                <span class="social-name">X (Twitter)</span>
-                                <span class="social-handle">Tech thoughts & insights</span>
-                            </div>
-                        </a>
-
-                        <a href="https://instagram.com/starsophile" target="_blank" rel="noopener noreferrer"
-                            class="social-link glass-card">
-                            <div class="social-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                    <path
-                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                                </svg>
-                            </div>
-                            <div class="social-info">
-                                <span class="social-name">Instagram</span>
-                                <span class="social-handle">Behind the scenes</span>
-                            </div>
-                        </a>
-
-                        <a href="https://github.com/Starsophile" target="_blank" rel="noopener noreferrer"
-                            class="social-link glass-card">
-                            <div class="social-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                    <path
-                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                                </svg>
-                            </div>
-                            <div class="social-info">
-                                <span class="social-name">GitHub</span>
-                                <span class="social-handle">Code & projects</span>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="contact-cta glass-card">
-                        <h3>Let's Build Something Amazing</h3>
-                        <p>Whether you want to discuss the latest smartphone trends, collaborate on a project, or just
-                            chat about product strategy—I'm always open to connecting with fellow tech enthusiasts.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3 class="footer-logo-text">Rishi</h3>
-                    <p class="footer-tagline">Building the future, one product at a time.</p>
-                </div>
-
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; <span id="currentYear"></span> Rishi. Crafted with passion for product and technology.</p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 
