@@ -173,7 +173,7 @@ To replace images:
 ## 🙏 Credits
 
 - **Design & Content**: Rishi Parmar
-- **AI Assistance**: Google Antigravity (Claude 3.5 Sonnet)
+- **AI Assistance**: Google Antigravity (Claude 4.5 Sonnet)
 - **Fonts**: Google Fonts (Playfair Display, Inter, JetBrains Mono)
 - **Form Service**: Web3Forms
 - **Images**: AI-generated editorial visuals
