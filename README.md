@@ -1,299 +1,189 @@
-# Rishi's Portfolio Website
+# The Haptic Journal — Portfolio
 
-A modern, minimalistic, and premium personal portfolio website showcasing my journey as a B.Tech CSE student and aspiring Product Manager in the smartphone and AI industry.
+> "I don't use the tech, I feel the tech."
 
-## 🎨 Design Features
+A product thinking journal and portfolio showcasing analysis of smartphone ecosystems, UX patterns, and consumer technology through the lens of psychology and systems design.
 
-- **Minimalistic & Modern**: Clean, professional design with tech/futuristic vibes
-- **Glassmorphism Effects**: Frosted glass cards with backdrop blur
-- **Smooth Gradients**: Dynamic purple, indigo, and cyan color scheme
-- **Premium Typography**: Inter for headings, Outfit for body text
-- **Smooth Animations**: Scroll-triggered fade-ins and micro-interactions
-- **Fully Responsive**: Mobile-first design that works on all devices
-- **Dark Theme**: Sleek dark mode with vibrant accent colors
+## 🎯 About This Portfolio
 
-## 📁 File Structure
+This is not a typical developer portfolio. It's an editorial-style product journal that documents insights on:
+- Smartphone ecosystem strategy
+- UX patterns and cognitive design
+- AI integration and behavior change
+- Product psychology in consumer tech
+
+**Built by**: Rishi Parmar  
+**Role**: Computer Science Engineering Student | Product Analyst | Operations Lead  
+**Domain**: Consumer Technology, Mobile UX, Product Strategy
+
+## 📁 Project Structure
 
 ```
 site/
-├── index.html          # Main HTML file with all sections
-├── styles.css          # Complete CSS styling with animations
-├── script.js           # JavaScript for interactivity
-├── README.md           # This file
-└── assets/             # (Optional) For future images/media
+├── index.html          # Main portfolio page
+├── styles.css          # Editorial design system with ambient effects
+├── script.js           # Interactive elements and form handling
+├── images/             # AI-generated editorial images
+│   ├── samsung_ecosystem.png
+│   ├── cognitive_flow.png
+│   └── ai_behavior.png
+└── README.md           # This file
 ```
 
-## 🎯 Sections Included
+## 🎨 Design Philosophy
 
-1. **Hero Section** - Eye-catching introduction with animated gradient background
-2. **About Me** - Compelling story and statistics
-3. **Experience** - Timeline of professional and college activities
-4. **Projects** - Showcase of research, case studies, and technical work
-5. **Skills** - Visual representation of expertise areas
-6. **Contact** - Form and social media links
+**Editorial & Analytical**
+- Calm, confident, analytical tone
+- No hype, no buzzwords
+- Minimalist with purpose
+- Dark theme with subtle ambient effects
 
-## 🎨 Color Palette
+**Typography**
+- Headings: Playfair Display (editorial serif)
+- Body: Inter (clean sans-serif)
+- Code: JetBrains Mono (monospace)
 
-| Color | Hex Code | Usage |
-|-------|----------|-------|
-| Primary (Indigo) | `#6366f1` | Main brand color, buttons, accents |
-| Secondary (Purple) | `#8b5cf6` | Gradient accents, highlights |
-| Accent (Cyan) | `#06b6d4` | Additional accents, variety |
-| Background Dark | `#0f172a` | Main background (Slate 900) |
-| Background Light | `#1e293b` | Card backgrounds (Slate 800) |
-| Text Primary | `#f1f5f9` | Main text (Slate 100) |
-| Text Secondary | `#cbd5e1` | Secondary text (Slate 300) |
-| Text Muted | `#94a3b8` | Muted text (Slate 400) |
+**Color Palette**
+- Background: Deep slate with noise texture
+- Accents: Subtle amber and muted tones
+- Focus on readability and sophistication
 
-## 🔤 Typography
+## 📄 Sections
 
-- **Headings**: [Inter](https://fonts.google.com/specimen/Inter) - Modern, clean sans-serif
-- **Body**: [Outfit](https://fonts.google.com/specimen/Outfit) - Friendly, readable sans-serif
+1. **Manifesto** — Product philosophy and approach
+2. **The Lens** — Writing and analysis on consumer tech
+3. **Builds** — Projects framed as Problem → Insight → Outcome
+4. **Curiosity** — Current research interests
+5. **About** — Journey from engineering to product thinking
+6. **Contact** — Professional contact form
 
-## ⚙️ Customization Guide
+## 🚀 Deployment
 
-### Updating Personal Information
+### GitHub Pages
 
-#### 1. Change Name and Tagline
-In `index.html`, find the hero section (around line 50):
-```html
-<h1 class="hero-title animate-fade-in">
-    Hi, I'm <span class="gradient-text">Rishi</span>
-</h1>
-<p class="hero-subtitle animate-fade-in-delay-1">
-    CSE Undergrad | Product & Tech Enthusiast | Content Writer
-</p>
-```
-
-#### 2. Update About Me Section
-In `index.html`, find the about section (around line 80) and modify the paragraphs to reflect your story.
-
-#### 3. Modify Experience
-In `index.html`, find the experience timeline (around line 130) and update:
-- Job titles
-- Company names
-- Dates
-- Descriptions
-- Tags
-
-#### 4. Add/Remove Projects
-In `index.html`, find the projects grid (around line 200). Each project card follows this structure:
-```html
-<div class="project-card glass-card">
-    <div class="project-icon">
-        <!-- SVG icon here -->
-    </div>
-    <h3 class="project-title">Project Name</h3>
-    <p class="project-description">Description here</p>
-    <div class="project-tags">
-        <span class="tag">Tag1</span>
-        <span class="tag">Tag2</span>
-    </div>
-</div>
-```
-
-#### 5. Update Skills
-In `index.html`, find the skills section (around line 350) and modify skill names and percentages:
-```html
-<div class="skill-item">
-    <span class="skill-name">Skill Name</span>
-    <div class="skill-bar">
-        <div class="skill-progress" style="width: 85%"></div>
-    </div>
-</div>
-```
-
-#### 6. Update Social Links
-In `index.html`, find the contact section (around line 450) and update the `href` attributes:
-```html
-<a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="social-link glass-card">
-```
-
-### Changing Colors
-
-Edit `styles.css` at the top (CSS custom properties):
-```css
-:root {
-    --color-primary: #6366f1;    /* Change this */
-    --color-secondary: #8b5cf6;  /* Change this */
-    --color-accent: #06b6d4;     /* Change this */
-}
-```
-
-### Modifying Animations
-
-In `styles.css`, find the animation keyframes and adjust timing:
-```css
-@keyframes fadeInUp {
-    /* Modify animation here */
-}
-```
-
-In `script.js`, adjust animation observer options:
-```javascript
-const observerOptions = {
-    threshold: 0.1,           /* When to trigger */
-    rootMargin: '0px 0px -50px 0px'
-};
-```
-
-## 🚀 Deployment Guide
-
-### Option 1: GitHub Pages (Recommended)
-
-1. **Create a GitHub Repository**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Portfolio website"
-   git branch -M main
-   git remote add origin https://github.com/yourusername/portfolio.git
-   git push -u origin main
-   ```
-
-2. **Enable GitHub Pages**
-   - Go to your repository on GitHub
-   - Click **Settings** → **Pages**
-   - Under "Source", select `main` branch
-   - Click **Save**
-   - Your site will be live at `https://yourusername.github.io/portfolio/`
-
-### Option 2: Netlify
-
-1. **Install Netlify CLI** (optional)
-   ```bash
-   npm install -g netlify-cli
-   ```
-
-2. **Deploy via Drag & Drop**
-   - Go to [netlify.com](https://www.netlify.com/)
-   - Drag your `site` folder to the deploy zone
-   - Your site is live instantly!
-
-3. **Deploy via CLI**
-   ```bash
-   netlify deploy --prod
-   ```
-
-### Option 3: Vercel
-
-1. **Install Vercel CLI**
-   ```bash
-   npm install -g vercel
-   ```
-
-2. **Deploy**
-   ```bash
-   cd site
-   vercel
-   ```
-
-### Option 4: Local Testing
-
-Simply open `index.html` in your browser:
-- **Windows**: Double-click `index.html`
-- **Mac**: Right-click → Open With → Browser
-- **Linux**: `xdg-open index.html`
-
-For a local server (recommended for testing):
 ```bash
-# Python 3
-python -m http.server 8000
+# Initialize repository
+git init
+git add .
+git commit -m "Initial commit: Product portfolio"
+git branch -M main
 
-# Node.js (install http-server first)
-npx http-server
-
-# PHP
-php -S localhost:8000
+# Add remote (replace with your repo URL)
+git remote add origin https://github.com/yourusername/portfolio.git
+git push -u origin main
 ```
 
-Then visit `http://localhost:8000`
+Then enable GitHub Pages:
+1. Go to repository **Settings** → **Pages**
+2. Select `main` branch as source
+3. Save and wait for deployment
 
-## 📝 Adding New Projects
+### Netlify (Recommended for custom domains)
 
-1. Copy an existing project card in `index.html`
-2. Update the content:
-   - Change the SVG icon (find icons at [Feather Icons](https://feathericons.com/))
-   - Update title and description
-   - Modify tags
-3. Save and refresh!
+1. Drag the `site` folder to [netlify.com](https://www.netlify.com/)
+2. Configure custom domain if needed
+3. Site is live instantly
 
-## 🎨 Finding Icons
+### Vercel
 
-- [Feather Icons](https://feathericons.com/) - Used in this portfolio
-- [Hero Icons](https://heroicons.com/)
-- [Font Awesome](https://fontawesome.com/)
-- [Lucide](https://lucide.dev/)
+```bash
+npm install -g vercel
+cd site
+vercel
+```
 
-## 🔧 Troubleshooting
+## 🔧 Customization
 
-### Animations Not Working
-- Check browser console for JavaScript errors
-- Ensure `script.js` is properly linked in `index.html`
-- Try clearing browser cache
+### Update Content
 
-### Fonts Not Loading
-- Check internet connection (Google Fonts requires internet)
-- Verify the Google Fonts link in `<head>` of `index.html`
+All text content is in `index.html`. Key sections to customize:
 
-### Mobile Menu Not Opening
-- Check JavaScript console for errors
-- Ensure the mobile menu toggle button has the correct ID
-- Verify `script.js` is loaded
+**Manifesto** (lines 34-42)
+```html
+<div class="manifesto-body">
+    <p>Your product philosophy here...</p>
+</div>
+```
 
-### Styling Issues
-- Clear browser cache
-- Check that `styles.css` is properly linked
-- Inspect element in browser DevTools to debug
+**The Lens Articles** (lines 57-96)
+- Update article titles, summaries, dates, and tags
+- Replace images in `images/` folder
 
-## 🌟 Future Enhancements
+**Builds/Projects** (lines 109-187)
+- Modify project names and descriptions
+- Update Problem/Assumption/Build sections
 
-- Add a blog section
-- Implement dark/light mode toggle
-- Add project detail pages
-- Include testimonials section
-- Add resume download button
-- Implement contact form backend (EmailJS, Formspree, etc.)
-- Add Google Analytics
-- Include loading animations
+**About Section** (lines 226-232)
+- Update your personal narrative
 
-## 📱 Browser Compatibility
+### Contact Form
 
-- ✅ Chrome (recommended)
+The portfolio uses [Web3Forms](https://web3forms.com/) for contact form submissions.
+
+To use your own access key:
+1. Sign up at web3forms.com
+2. Get your access key
+3. Update line 268 in `index.html`:
+```html
+<input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+```
+
+### Update Contact Info
+
+Footer contact details (lines 289-301):
+- Email: `contact@starsophile.qzz.io`
+- LinkedIn: Update href
+- Instagram: Update href
+- Work link: Update href
+
+## 🖼️ Images
+
+The portfolio includes AI-generated editorial images:
+- **samsung_ecosystem.png** — Ecosystem connectivity visualization
+- **cognitive_flow.png** — Cognitive load vs. intuitive flow
+- **ai_behavior.png** — AI behavior transformation concept
+
+To replace images:
+1. Add new images to `images/` folder
+2. Update `src` attributes in `index.html` (lines 67, 81, 95)
+
+## 📱 Browser Support
+
+- ✅ Chrome/Edge (Chromium)
 - ✅ Firefox
 - ✅ Safari
-- ✅ Edge
-- ✅ Opera
-- ⚠️ IE11 (limited support)
+- ✅ Mobile browsers
 
-## 📄 License
+## 🛠️ Technical Features
 
-This portfolio template is free to use for personal projects. Feel free to customize it to your needs!
-
-## 🙏 Credits
-
-- **Design & Development**: Rishi
-- **AI Assistance**: Google's Antigravity (using Claude 4.5 Sonnet model)
-- **Fonts**: Google Fonts (Inter, Outfit)
-- **Icons**: Feather Icons
-- **Inspiration**: Modern web design trends
-
-## 🛠️ Setup & Features
-- **Portfolio Structure**: Hero, About, Experience, Projects, Skills, Contact
-- **Contact Form**: Integrated with Web3Forms for serverless email submissions
-- **Responsive Design**: Mobile-first approach ensuring compatibility across all devices
-- **Animations**: Smooth fade-ins and micro-interactions for a premium feel
-- **Deployment**: Ready for GitHub Pages, Netlify, or Vercel
+- **Ambient Background**: Animated gradient with noise texture overlay
+- **Scroll Animations**: Intersection Observer for fade-in effects
+- **Glassmorphism**: Subtle backdrop blur effects
+- **Responsive Design**: Mobile-first approach
+- **Form Validation**: Client-side validation with Web3Forms integration
+- **Expandable Details**: Toggle buttons for technical project details
 
 ## 📧 Contact
 
-For questions or suggestions about this portfolio:
-- **LinkedIn**: [Rishi Parmar](https://linkedin.com/in/rishiparmar01)
-- **Twitter/X**: [starsophile](https://twitter.com/Varexity)
-- **Email**: rishi.parmar@imaginepedia.tech
+- **Email**: contact@starsophile.qzz.io
+- **LinkedIn**: [Rishi Parmar](https://www.linkedin.com/in/rishiparmar01/)
+- **Instagram**: [@starsophile](https://www.instagram.com/starsophile/)
+- **Work**: [GadgetsTurbo](https://www.gadgetsturbo.in/)
+
+## 🙏 Credits
+
+- **Design & Content**: Rishi Parmar
+- **AI Assistance**: Google Antigravity (Claude 3.5 Sonnet)
+- **Fonts**: Google Fonts (Playfair Display, Inter, JetBrains Mono)
+- **Form Service**: Web3Forms
+- **Images**: AI-generated editorial visuals
+
+## 📝 License
+
+This portfolio is open source and free to use as inspiration. Please customize it to reflect your own work and experiences.
 
 ---
 
-**Built with ❤️ and passion for product & technology**
+**Built with systems thinking and product intuition**
 
-*Last Updated: November 2025*
+*Last Updated: January 2026*
